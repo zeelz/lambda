@@ -2,7 +2,7 @@ on: push
 
 jobs:
   deploy-lambda:
-    runs-on: linux
+    runs-on: linux-latest
 
     steps:
       - name: checkout

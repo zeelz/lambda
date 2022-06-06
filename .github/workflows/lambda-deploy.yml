@@ -16,5 +16,5 @@ jobs:
 
       - name: deploy
         run: |
-          echo deployed...
-          echo deployed
+          echo "deployed..."
+          echo "deployed"

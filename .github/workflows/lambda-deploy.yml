@@ -16,5 +16,5 @@ jobs:
 
       - name: deploy
         run: |
-          echo "deployed..."
-          echo "deployed"
+          zip -j index.zip ./*
+          aws lambda update-function-code --function-name=hello-lambda --zip-file=fileb://index.zip
